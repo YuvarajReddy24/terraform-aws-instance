@@ -4,10 +4,10 @@ This module creates EC2 Instance
 
 ### Inputs
 
-ami_id - (Optional) Defaults to ami-09c813fb71547fc4f
-instance_type - (Required) User must supply instance type either t3.micro or t3.small or t3.medium
-sg_ids - (Required) user must supply a list of security group IDS to attach Ec2 instance
-tags - (Optional) user can supply the tags attach to EC2 instance
+* ami_id - (Optional) Defaults to ami-09c813fb71547fc4f
+* instance_type - (Required) User must supply instance type either t3.micro or t3.small or t3.medium
+* sg_ids - (Required) user must supply a list of security group IDS to attach Ec2 instance
+* tags - (Optional) user can supply the tags attach to EC2 instance
 
 #### Outputs
 
